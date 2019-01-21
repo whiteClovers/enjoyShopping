@@ -1,0 +1,412 @@
+/*..................................以下是顶部导航条.......................................*/
+#top{
+		background-color: #E3E4E5;
+}
+.top_nav{
+
+	margin: 0px auto;
+	width: 990px;
+
+}
+.top_ul_left{
+	float:left;
+	list-style: none;
+}
+.top_ul_right{
+	float:right;
+}
+.top_ul_left>li{
+	float:left;
+	list-style: none;
+	margin: 5px 0px 5px 0px;
+}
+.top_ul_right>li{
+	float:left;
+	list-style: none;
+	margin: 5px 10px 5px 0px;	
+}
+.spacer{
+    margin: 0px 10px 0px 10px;
+}
+
+
+/*..................................以下是logo行.......................................*/
+.logo_input{
+	float: right;
+    border: 2px solid #FF0000;
+    height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.logo_image{
+	float: left;
+}
+.cart{
+	position: relative;
+    right: 28px;
+}
+.logo{
+	margin: 20 0 20 0;
+}
+.input_shuru{
+	width: 270px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.input_sousuo{
+	vertical-align: top;
+    width: 48px;
+    height: 24px;
+    background: #FF0000;
+    text-align: center;
+    color: #fff;
+    font-weight: 700px;
+    border: 5px;
+}
+
+
+/*..................................以下是商品及京东大药房行.......................................*/
+.allproduct_n{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+#shuliang{
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+#yaofang{
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 20px;
+}
+.allproduct>div{
+	margin:15 0 0 0;
+}
+.allproduct_1{
+	float: left;
+}
+.allproduct_2{
+	float: left;
+}
+.allproduct_3{
+	float:right;
+}
+.allproduct{
+	margin-bottom: 6px;
+}
+
+
+/*..................................以下是计量单位行.......................................*/
+.jiliang_ui>li{
+	list-style: none;
+	float: left;
+}
+.ji_2{
+	margin-left: 80px;
+}
+.ji_3{
+	margin-left: 425px;
+}
+.ji_4{
+	margin-left: 70px;
+}
+.ji_5{
+	margin-left: 110px;
+}
+.ji_6{
+	margin-left: 40px;
+}
+.jiliang{
+	background-color: #F3F3F3;
+	padding: 10px;
+	border: 1px solid #E0E0E0;
+}
+.jiliang_input{
+	margin-right: 10px;
+}
+
+
+/*..................................以下是购物券行.......................................*/
+.gouwuquan_top{
+	background-color: #FFFFF;
+	padding: 10px;
+}
+.gouwuquan_ul>li{
+	float: left;
+}
+.gouwuquan_ul{
+	list-style: none;
+	margin-right: 10px;
+}
+.gouwuquan_ul_li1{
+	margin-left:350px;
+}
+.gouwuquan_input{
+	margin-right: 10px;
+}
+
+
+/*..................................以下是商品详情行.......................................*/
+.xiangqing{
+	padding: 10px;
+	border: 1px solid;
+	border-top-color:#AAAAAA ;
+	border-bottom-color:#C5C5C5 ;
+	border-left-color:#F1F1F1 ;
+	border-right-color:#F1F1F1;
+	;
+}
+.xiangqing_xuanzhong{
+	 float:left;
+	 margin-right: 10px;
+}
+.xiangqing_shangpin{
+	float:left;width:450px;
+	font-size: 3px;
+}
+.xiangqing_danjia{
+	float:left;
+	margin-top: 10px;
+	width:180px;
+}
+.xiangqing_jiage{
+	margin-left: 102px;
+}
+.xiangqing_shuliang{
+	 float:left;
+	 width:80px;
+	 margin-top: 10px;
+}
+.xiangqing_xiaoji{
+	float:left;
+	width:130px;
+	margin-top: 10px;
+}
+.xiangqing_zongjia{
+	margin-left: 73px;
+}
+.xiangqing_shangpin>div{
+	float: left;
+}
+.xiangqing_shangpin_all{
+	width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    height: 80px;
+}
+.xiangqing_shangpin_img{
+	border: 1px solid #F1F1F1;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.xiangqing_caozuo{
+	float:left;
+	width:80px;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.xiangqing_shangpin_mingcheng{
+	height: 40px;
+	overflow: hidden;
+}
+.xiangqing_color{
+	text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+}
+.xiangqing_shuliang_div>input{
+	float:left;
+}
+#jian{
+	width: 20px;
+	height: 25px;
+}
+#jia{
+	width: 20px;
+	height: 25px;
+}
+#shuliang{
+	width: 40px;
+	height: 25px;
+}
+
+
+/*..................................以下是自营或者其他店铺行.......................................*/
+#ziying{
+	margin-bottom: 30px;
+}
+
+
+/*..................................以下是结算栏行.......................................*/
+.jiesuan{
+	margin-top:20px ;
+	background-color: #FFFFFF;
+	border: 1px solid #E0E0E0;
+	height: 50px;
+	vertical-align: middle;
+}
+.js{
+	margin-top: 17px;
+}
+.jiesuan_input{
+	margin-left: 10px;
+}
+.jiesuan_1{
+	margin-left: 10px;
+}
+.jiesuan_2{
+	 margin-left:320px
+}
+.jiesuan_3{
+	display: inline-block;
+	margin-left: 20px;
+}
+#qujiesuan{
+	color: #FFFFFF;
+	background-color: #FF0000;
+	width: 84px;
+    height: 50px;
+    border: 0px;
+    float: right;
+}
+.jiesuan_zongji{
+	 width:50px;
+}
+
+
+/*..................................以下是广告行.......................................*/
+.ad_kind_ul1>li{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+}
+.ad_kind_ul1{
+	float: left;
+}
+.ad_kind_ul2>li{
+	float: left;
+}
+.ad_kind_ul2{
+	float: right;
+	list-style: none;
+}
+.ad_kind{
+	margin: 10px;
+}
+.ad_ul>li{
+	float: left;
+	list-style: none;
+	width: 245px;
+	height: 310px;
+	border: 1px solid #E0E0E0;
+}
+.ad_img1{
+	width:160px;
+	height: 160px;
+	text-align: center;
+}
+.ad_li_div{
+	height:35px ;
+	overflow:hidden;
+	width=150px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ad_li_div1{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ad_li_div2{
+	text-align: center;
+	height: 20px;
+	margin-top: 10px;
+}
+.ad_li_button{
+	width: 150px;
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px #AAAAAA solid;
+}
+
+
+/*..................................以下是底部杂毛行.......................................*/
+.dkhs{
+	margin-top: 20px;
+	background-color: #EAEAEA;
+	text-align: center;
+}
+#buttom_lianjie{
+	width:100%;
+	background-color: #EAEAEA;
+}
+.wrep{
+	width: 990px;
+    margin: 0 auto;
+    border: 1px solid #666666;
+}
+.wrap>dl{
+	float: left;
+}
+.wrap{
+	padding: 20px 0 20px 55px;
+    margin-right: -340px;
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    border-bottom: 1px solid #AAAAAA;
+    border-top: 1px solid #AAAAAA;
+    line-height: 22px;
+}
+
+.fore2,.fore3,.fore4,.fore5{
+	margin-left:170px;
+}
+.fore_dt{
+	padding-bottom: 6px;
+    font-size: 14px;
+    color: #777;
+    height: 22px;
+    font-weight: bolder;
+}
+
+/*copy*/
+#footer-2017 {
+    padding-bottom: 30px;
+    background: #eaeaea;
+    text-align: center;
+    line-height: 22px;
+    margin: 0 10px;
+}
+.copyright_links{
+	margin: 10 0 10 0;
+	padding: 0 10 0 10;
+}
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    font: 12px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+    background: #fff;
+}
+.w{
+	width: 1210px;
+    margin: 0 auto;
+}

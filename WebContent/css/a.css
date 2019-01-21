@@ -1,0 +1,305 @@
+.a{
+	margin:0 auto;
+	width:1390px;
+}
+
+.ww{
+	margin: 0 auto;
+	width:1390px;
+	
+}
+
+.shouye{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #e3e4e5;
+    
+	}
+	
+.shoppingcar{
+    float: left;
+    z-index: 11;
+    height: 36px;
+    margin-top: 27px;
+    color:red;
+    margin-left: 180px;
+    margin-top: 33px;
+    background: #F9F9F9;
+    }
+    
+  .search{
+    width: 626px;
+	float: left;
+    border: 0px;
+    outline: 0px;
+    margin-left: 5px;
+    height: 33px;
+	
+    
+}
+
+.shousuo{
+	float: left;
+    height: 36px;	
+	background: #f30213;
+	border: 2px;
+    color: #FFFFFF;
+    font-family: tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+}
+
+.c{
+	margin: 0 auto;
+	width:1390px;
+}
+	
+.s{
+	border :2px solid #FF0000;	
+	margin-top: 33px;
+    margin-left: 113px;
+		
+		
+	}
+	
+#fenlei{
+	margin-top: 10px;
+    height: 33px;
+	margin: 0;
+    padding: 0;
+	margin-top: 24px;
+	font-size: 15px;
+}
+
+#categroys{
+	float: left;
+	z-index: 10;
+    width: 190px;
+	line-height: 33px;
+    background: #f30213;
+    overflow: visible;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#colthes{
+	float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+	font-family: "arial";
+	font-weight: bold;
+	
+}
+
+#beauty{
+	float: left;
+	font-family: "arial";
+	font-weight: bold;
+}
+#supermarket, #shengxian,#wshop,#fshop,#sort,#jinrong{
+    float: left;
+	font-family: "arial";
+	font-weight: bold;	
+	margin-left: 30px;
+}
+
+.pinpai{
+	float: left;
+    width: 100px;
+    padding-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+	
+}
+.ppfenlei{
+
+    overflow: hidden;
+    zoom: 1;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+	width: 1080px;
+	float: left;
+	
+}
+	
+	
+.line{
+     border-bottom: 2px solid #f30213;
+}	
+s
+
+#lianyi{
+	float: left;
+    margin-left: 62px;
+	
+}
+
+#xiuxian{
+	float: left;
+    margin-left: 80px;
+}
+
+#txue{
+	float: left;
+    margin-left: 80px;
+}
+
+#zhonglao{
+	float: left;
+    margin-left: 80px;
+}
+#banshen{
+	float: left;
+    margin-left: 80px;
+}
+
+#chensan{
+	float: left;
+    margin-left: 80px;
+}
+
+#niuzai{
+	float: left;
+    margin-left: 80px;
+}
+
+#duo{
+	float: left;
+    margin-left: 366px;
+}
+#sanba,#sishi,#sier,#sisi,#XXS,#XS,#S,#M,#L{
+	float: left;
+    margin-left: 76px;
+}
+
+.cmbk{
+	border:1px solid;
+	border-bottom-color: gainsboro;
+	border-top-color: gainsboro;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;  
+}
+
+#heise{
+	float: left;
+    margin-left: 75px;
+}
+
+#huise,#baise,#fense,#hongse,#zise,#lanse,#lvse,#huangse,#zongse,#qianhui,#caise,#xiaohongse,#mise,#chengse{
+	float: left;
+    margin-left: 12px;
+}
+
+.line2{
+	border:1px solid;
+	border-bottom-color: gainsboro;
+	border-top-color: gainsboro;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;
+	
+}
+#hou{
+	float: left;
+    margin-left: 43px;
+	
+}
+
+#yimen,#shi,#ban,#qun,#feng,#fen,#xiu,#xiuxing,#ling,#qi{
+	float: left;
+    margin-left: 20px;	
+}
+
+.line3{
+	border:1px solid;
+	border-bottom-color: gainsboro;
+	border-top-color: gainsboro;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;
+	
+}
+
+.xia{
+	margin: 0 auto;
+	width:1390px;
+	
+}
+.na{
+	border:1px solid;
+	border-bottom-color: gainsboro;
+	border-top-color: gainsboro;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;
+	background: #e3e4e5;
+
+}
+
+.dier{
+	border:1px solid;
+	border-bottom-color: gainsboro;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;
+	
+}
+#xin{
+	color:white;
+	background-color: green;
+}
+
+.da{
+	margin-bottom: 20px;
+    height: auto;
+    position: relative;
+    z-index: 1;
+	
+}
+.zz{
+	
+}
+.clearfix:after{
+	content:'.';
+	display:block;
+	clear:both;
+	visibility:hidden;
+
+}
+
+#sh{
+	width:40px;
+	height:40px;
+}
+
+#h{
+	border-bottom-color:ghostwhite;
+	border-top-color: ghostwhite;
+	border-left-color:ghostwhite;
+	border-right-color:ghostwhite;
+	background-color: white;
+}
+
+.sd{
+	width:90px;
+	height:40px;
+}
+
+.au{
+	margin: 0 auto;
+	width:1390px;
+
+}
+.vv{
+	width:248px;
+}
+
+.ff{
+	margin: 0 auto;
+	width:1390px;
+	border:1px solid #DFDFDF;
+}
+
+.uu{
+	font-size: 14px;
+	margin-bottom: 15px;
+    margin-top: 16px;
+    margin-left: 60px;
+   }
+

@@ -1,0 +1,26 @@
+.manage_index_fixed_top>div,
+.manage_index_fixed_top_3_ul>li,
+.manage_index_body_second>div,
+.manage_index_body_first>div,
+.box_pad_style4,
+.login_frame>div,
+.login_frame_election_left,
+.index_input_body_third_header_1,
+.index_input_body_third_body_1>div,
+.index_input_body_third_body_1_style1>div,
+.table_body_first_header_1,
+.table_third>div,
+.index_input_body_second li,
+.index_input_body_third_body_new_first>div,
+.index_input_body_third_body_all>div {
+	float: left;
+}
+
+.manage_index_fixed_top_4_ul>li,
+.box_pad_style3,
+.login_btn1 *,
+.login_frame_election_right,
+.index_input_body_third_header_2,
+.table_body_first_header_2 {
+	float: right;
+}

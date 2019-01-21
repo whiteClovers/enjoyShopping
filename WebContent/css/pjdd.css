@@ -1,0 +1,252 @@
+.redheader_wrap {
+    background-color: #e2231a;
+}
+.redheader {
+    margin: 0 auto;
+}
+.redheader_wrap * {
+    text-decoration: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.redhjdlogo {
+    width: 272px;
+}
+.redheader_left {
+    float: left;
+}
+.redhjdlogo1 {
+    content: '';
+    margin-right: 10px;
+}
+.clearfix:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+.redhjdlogo_link>a {
+    /* display: block; */
+}
+.redhjdlogo_link1 {
+    margin: 20px 0 0 6px;
+    font-family: "Microsoft YaHei";
+    color: #FFFFFF;
+}
+.redheader_fsz20 {
+    font-size: 20px;
+}
+.redhjdlogo_link>a {
+    display: block;
+}
+.redhjdlogo_link2 {
+    margin-top: 5px;
+    padding: 0 10px;
+    border: 1px solid #ffb2b2;
+    border-radius: 10px;
+    color: #FFB2B2;
+    line-height: 18px;
+}
+.redheader_navitems {
+    margin-left: 30px;
+    padding: 22px 0;
+}
+.redheader_navitem {
+    float: left;
+    list-style: none;
+    color: #FFFFFF;
+    margin-right: 30px;
+    line-height: 36px;
+}
+.redheader_navr {
+    margin-right: 5px;
+    margin-top: 25px;
+}
+.redheader_right {
+    float: right;
+}
+.redheader_navr>* {
+    float: left;
+}
+.redheader_navr1_input {
+    border-width: 0px;
+    padding: 4px;
+    margin-bottom: 4px;
+    line-height: 25px;
+    outline: 0;
+    color: #666;
+    width: 120px;
+}
+.redheader_navr1_btn {
+    background-color: #FFFFFF;
+    width: 56px;
+    font-size: 12px;
+    height: 32px;
+    color: #333;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 0;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+.redheader_navr2 {
+    background-color: #FFFFFF;
+    margin-left: 15px;
+    padding: 0 10px 0 15px;
+}
+.redheader_navr2_span {
+    text-align: center;
+    line-height: 32px;
+    width: 75px;
+    border: 1px solid #fff;
+    margin: 0 10px 0 5px;
+}
+.background2 {
+    background-color: #F5F5F5;
+}
+.div_wrap {
+    margin: 0 auto;
+    width: 1200px;
+}
+.float>div {
+    float: left;
+}
+.m_top30 {
+    margin-top: 30px;
+}
+.m_top10>div {
+    margin-top: 10px;
+}
+.jiacu {
+    font-weight: 900;
+}
+.mod1 {
+    width: 1090px;
+    height: 60px;
+}
+.background3 {
+    background-color: #FFFFFF;
+}
+.background3{
+	background-color: #FFFFFF;
+}
+.mod1{
+	width: 1103px;
+	height: 60px;
+}
+.mod2{
+	width: 1090px;
+}
+.mod3{
+	width: 1030px;
+	height: 35px;
+}
+.button_width_height{
+	width: 58px;
+	height: 25px;
+}
+
+.m_move{
+	margin-top: 35px;
+    margin-left: 30px;
+    border-top-width: 18px;
+    padding-top: 20px;
+}
+
+.m_move2{
+	margin-top: 20px;
+}
+.m_move3{
+	margin-top: 15px;
+    margin-left: 30px;
+}
+.m_move4{
+	margin-left: 20px;
+}
+.m_move5{
+	margin-top: 15px;
+    margin-left: 50px;
+}
+.m_move6{
+	margin-top: 15px;
+}
+.m_move7{
+    margin-top: 8px;
+    margin-left: 20px;
+    }
+
+.m_move8{
+    margin-top: 8px;
+    margin-left: 230px;
+    }
+
+.m_move9{
+    margin-top: 8px;
+    margin-left: 180px;
+    }
+
+.m_move10{
+    margin-top: 8px;
+    margin-left: 65px;
+}  
+
+.m_move11{
+    margin-top: 8px;
+    margin-left: 70px;
+}  
+.m_move12{
+    margin-top: 8px;
+    margin-left: 85px;
+}
+.m_move13{
+	margin-top: 15px;
+    margin-left: 100px;
+}
+.m_move14{
+	margin-top: 15px;
+    margin-left: 200px;
+}
+.m_move15{
+    margin-top: 20px;
+    margin-left: 15px;
+}  
+
+.m_move16{
+    margin-top: 20px;
+    margin-left: 928px;
+}
+
+.font_size{
+	font-size: 12px;
+}
+.font_size2{
+	font-size: 10px;
+}
+.m-joytip {
+    width: 100%;
+    text-align: center;
+}
+.m-joytip .tip-main {
+    display: inline-block;
+    padding: 100px 0;
+    font-size: 0;
+}
+.m-joytip .tip-icon {
+    width: 111px;
+    height: 101px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.m-joytip .tip-icon {
+    display: inline-block;
+    background-image: url(//misc.360buyimg.com/user/myjd/comment/1.0.0/css/i/sprite-joy.png);
+    background-repeat: no-repeat;
+}
+.m-joytip .tip-info {
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    vertical-align: middle;
+}

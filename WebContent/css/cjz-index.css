@@ -1,0 +1,416 @@
+* {
+	margin：5px； padding: 0;
+}
+
+body,
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body {
+	font: 12px/150% tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #666;
+	background: #fff;
+}
+
+div {
+	display: block;
+}
+
+ul {
+	display: block;
+}
+
+li {
+	float: left;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+.divfloat {
+	float: left;
+}
+
+.mid {
+	width: 1210px;
+	margin: auto;
+	height: auto;
+}
+
+#toptop {
+	width: 1903px;
+	height: 30px;
+	line-height: 30px;
+	background: #e3e4e5;
+	border-bottom: solid 1px #ddd;
+}
+
+#topmid {
+	float: left;
+	width: 1210px;
+	height: 30px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#title {
+	width: 1903px;
+	height: 87px;
+}
+
+#logo-left {
+	width: 350px;
+}
+
+
+/*导航栏*/
+
+.topleft {
+	height: 30px;
+	margin-right: 10px;
+}
+
+.topright {
+	height: 30px;
+	margin-right: 10px;
+}
+
+.spacer {
+	width: 1px;
+	height: 12px;
+	margin-top: 9px;
+	padding: 0;
+	background: #ccc;
+	overflow: hidden;
+	margin-right: 10px;
+}
+
+
+/*logo处*/
+
+.logo {
+	float: left;
+	display: block;
+	margin-top: 15px;
+	margin-right: 50px;
+	width: 134px;
+	height: 42px;
+	background: no-repeat 0 0;
+	background-size: 134px 42px;
+}
+
+#channel {
+	float: left;
+	margin-right: 10px;
+	cursor: default;
+	font-size: 20px;
+	line-height: 45px;
+	font-weight: 400;
+	color: #666;
+}
+
+.extra {
+	float: left;
+	margin-top: 22px;
+}
+
+#categorys-mini {
+	float: left;
+	color: #666;
+	font-size: 12px;
+	font-weight: 400;
+	position: relative;
+	padding-top: 12px;
+	height: 21px;
+}
+
+#categorys-mini .cw-icon {
+	color: #ccc;
+	position: relative;
+	width: 65px;
+	height: 19px;
+	border: 1px solid #ccc;
+	line-height: 19px;
+	z-index: 1;
+	background: #fff;
+	padding: 0 5px;
+}
+
+
+/*search*/
+
+#search-all {
+	width: 455px;
+	margin: 27px 30px 0 85px;
+}
+
+#search-all .button {
+	float: left;
+	width: 80px;
+	height: 36px;
+	font-family: tahoma, arial, Microsoft YaHei, Hiragino Sans GB, "\u5b8b\u4f53", sans-serif;
+	background: #f30213;
+	border: none;
+	border-radius: 0;
+	line-height: 1;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.form {
+	width: 385px;
+	height: 36px;
+}
+
+input,
+textarea,
+select,
+button {
+	text-rendering: auto;
+	color: initial;
+	text-indent: 0px;
+	display: inline-block;
+	text-align: center;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+
+.text {
+	float: left;
+	width: 294px;
+	height: 24px;
+	line-height: 24px;
+	color: #999;
+	padding: 4px;
+	margin-bottom: 4px;
+	border-width: 2px 0 2px 2px;
+	border-color: #f30213;
+	border-style: solid;
+	outline: 0;
+	font-size: 12px;
+}
+
+
+/*shopcar*/
+
+#shopcar {
+	float: left;
+	z-index: 11;
+	height: 36px;
+	margin-top: 27px;
+}
+
+#shopcar .cw-icon {
+	width: 91px;
+	height: 34px;
+	border: 1px solid #DFDFDF;
+	padding: 0 28px 0 19px;
+	background: #F9F9F9;
+	line-height: 34px;
+}
+
+
+/*logo下方正文*/
+
+#classify {
+	margin-top: 10px;
+	height: 33px;
+	border-bottom: 2px solid #f30213;
+	_overflow: hidden;
+}
+
+#classify .w {
+	position: relative;
+	z-index: 9;
+}
+
+.w {
+	width: 990px;
+	margin: 0 auto;
+}
+
+#classify .w-spacer {
+	position: absolute;
+	top: -1px;
+	z-index: 1;
+	width: 100%;
+	height: 44px;
+	border-top: 1px solid #DDD;
+	border-bottom: 2px solid #B1191A;
+}
+
+#categorys-2014 {
+	float: left;
+	position: relative;
+	z-index: 10;
+	width: 242px;
+	height: 33px;
+	line-height: 33px;
+	background: #f30213;
+	overflow: visible;
+}
+
+#categorys-2014 .dt {
+	margin-left: 10px;
+	padding: 0 10px;
+	font-size: 14px;
+	position: relative;
+	bottom: 0;
+	color: #fff;
+}
+
+.commodity-all {}
+
+#navitems-2014 a {
+	height: 33px;
+	padding: 0 22px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 33px;
+	color: #333;
+}
+
+
+/*menu-left*/
+
+.women-type-con {
+	width: 242px;
+	height: 640px;
+	background-color: #ff5b79;
+	float: left;
+	position: relative;
+}
+
+.women-type-con dl.first {
+	padding-top: 17px;
+}
+
+.women-type-con dl dt {
+	margin-left: 20px;
+	font-size: 14px;
+	color: #FFF;
+	position: relative;
+}
+
+.women-type-con dl dd {
+	line-height: 26px;
+	padding-top: 5px;
+	padding-bottom: 9px;
+	background: left bottom repeat-x;
+}
+
+dd {
+	display: block;
+	-webkit-margin-start: 40px;
+}
+
+.women-type-con dl dd a {
+	font-size: 12px;
+	color: #FFF;
+	display: inline-block;
+	padding: 0 15px 0 0;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+
+
+/*右侧图片轮转*/
+
+#women-menu {
+	float: left;
+	width: 968px;
+	height: 380px;
+}
+
+#women-ads {
+	float: left;
+	width: 968px;
+	height: 260px;
+}
+
+.photo-ads {
+	float: left;
+	display: block;
+	width: 241px;
+	border-right: 1px solid #e5e5e5;
+	height: 260px;
+}
+
+
+/*brand*/
+
+
+
+#brand {
+	margin-top: 45px;
+	width: 1210px;
+	height: 343px;
+}
+
+em {
+	color: #434343;
+	font-size: 28px;
+	height: 28px;
+	line-height: 28px;
+
+}
+
+span {
+	color: #b9b9b9;
+	font-size: 14px;
+	font-family: Arial;
+	bottom: -3px;
+	left: 120px;
+}
+.brand-class {
+	margin-left: 10px;
+	margin-right:15px;
+    padding: 0 25px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #f46;
+    color: #fff;
+}
+.brand-list{
+	width: 716px;
+}
+.brand-logo{
+	width: 178px;
+	height: 64px;
+}
+
+.imgmid{
+	margin: 15px 40px 15px 40px;
+	display: inline-block;
+}
+
+/*newbrand*/
+.newbrand{
+	float: left;
+	width: 241px;
+	height: 403px;
+}
+/*outfit*/
+.outfit{
+	margin-top: 45px;
+	width: 1210px;
+	height: 503px;
+}
+/*bigbrand*/
+.bigbrand{
+	float: left;
+	width: 233px;
+	height: 325px;
+}

@@ -1,0 +1,147 @@
+.info{
+	float: left;
+	margin: 20px;
+	width: 930px;
+}
+.info_color{
+	background-color: #FFFFFF;
+}
+.info_1{
+	display: block;
+    padding: 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+.info_1>ul{
+	float: left;
+	list-style: none;
+}
+.info_1 li{
+	float: left;
+    padding-left: 20px;
+    list-style: none;
+}
+.info_a1{
+	color: red;
+	border-bottom: 2px solid red;
+	font-weight: 700;
+	display: inline-block;
+    padding-bottom: 2px;
+}
+.info_div1{
+	float: left;
+	width: 500px;
+	background-color: #fff;
+    padding: 20px 5px 0 15px;
+}
+
+.info_div2{
+	float: left;
+}
+.info_div1 span{
+	float: left;
+    width: 70px;
+    color: #999;
+    text-align: right;
+    width: 70px;
+}
+.info em{
+	color: red;
+}
+.info_a2{
+	color: #005ea7;
+	margin-left: 10px;
+}
+.info_itxt,.info_form{
+	height: 18px;
+    width: 127px;
+    padding: 5px 23px 5px 5px;
+}
+.info_itxt, .info_form .info_sele, .info_form ,.info_selt {
+    line-height: 18px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: none;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+.info_label{
+	margin-right: 10px;
+}
+.info_item{
+	display: block;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.info_form,.info_selt1{
+	width: 75px;
+}
+.li-item{
+	height: 18px;
+    line-height: 18px;
+    border: 1px solid #cfcfcf;
+    padding: 8px 9px;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    border: 1px solid #cfcfcf;
+    padding: 8px 9px; 
+    margin: 10px 10px 0 0;
+    cursor: pointer; 
+    white-space: nowrap;
+    list-style: none;
+}
+.info_div3{
+	float: left;
+	width: 400px;
+}
+.info_size{
+	font-weight: 700;
+	font-size: 14px;
+	height: 28px;
+	border: 1px solid #BFD6AF;
+	background-color: #F0F8E9;
+	display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 0 14px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+#user_info{
+	overflow: hidden;
+    width: 305px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 102px;
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    color: #666;
+    line-height: 20px;
+}
+.user_info_img{
+	z-index: 0;
+    float: left;
+    width: 104px;
+    height: 104px;
+    overflow: hidden;
+    text-align: center;
+}
+.user_info_img1{
+	border-radius: 50px;
+}
+.user_info_div{
+	float: left;
+	width: 180px;
+	line-height: 22px;
+	margin: 10px;
+}
+.info_zhuyi{
+	width: 280px;
+	float: right;
+	text-align: center;
+	margin-right: 70px;
+}

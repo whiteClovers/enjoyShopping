@@ -1,0 +1,59 @@
+.white{
+	background: #FFFFFF;
+}
+.tixing{
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+.mt{
+	margin-top: 15px;
+}
+.line-height51{
+	 line-height: 51px;
+}
+.font_quxiao{
+	font-size: 24px; 
+	font-family:"Microsoft YaHei";
+	color: #71b247;
+	font-weight: bold;
+}
+.center{
+	text-align: center;
+}
+.font_color_blue{
+	color: #2D87EC;
+}
+.ddxq_ddh_width{
+	width: 325px;
+}
+.magin_left310{
+	margin-left: 310px;
+}
+.magin_top125{
+	margin-top: 125px;
+}
+.ddxq_ddh_width2{
+	width: 300px;
+}
+.magin_left25{
+	margin-left: 25px;
+}
+
+.padding-top50{
+    padding-top: 50px;
+}
+.font-weight400{
+	font-weight: 400;
+}
+.line-height32{
+	line-height: 32px;
+}
+.ddxq_ddh_width3{
+	width: 500px;
+}
+.ddxq_ddh_width4{
+	width: 140px;
+}
+.padding-top10{
+    padding-top: 10px;
+}

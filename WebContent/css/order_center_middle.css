@@ -1,0 +1,819 @@
+#container {
+    background-color: #f5f5f5;
+}
+#content {
+    padding-left: 120px;
+    padding-top: 20px;
+    display: block;
+}
+#sub {
+    float: left;
+    width: 120px;
+    position: relative;
+    left: -120px;
+}
+#menu {
+    width: 100px;
+    padding-left: 10px;
+}
+#menu dl {
+    padding-bottom: 15px;
+}
+#menu dl dt {
+    height: 28px;
+    line-height: 28px;
+    color: #333;
+    font-weight: 700;
+}
+#menu dl dd {
+    color: #666;
+    line-height: 24px;
+}
+#menu dl dd.curr a {
+    color: #e4393c;
+    font-weight: 700;
+}
+#menu dl dd a {
+    color: #777;
+}
+#menu dl {
+    padding-bottom: 15px;
+}
+#menu-ads {
+    width: 90px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+#menu-ads a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#menu a:hover{color: #FF0000;text-decoration: underline;}
+#main {
+    float: left;
+    width: 99.9%;
+    margin-left: -120px;
+    overflow: hidden;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mod-comm {
+    padding: 10px 20px 20px;
+}
+.mod-main {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.mod-order .mt {
+    padding: 10px 0 0;
+}
+.mod-main .mt {
+    display: block;
+}
+.mod-comm .mt h3 {
+    font-size: 12px;
+    color: #666;
+    font-family: '\5b8b\4f53';
+    line-height: 18px;
+}
+.mod-main .mt h3 {
+    float: left;
+	}
+	.mod-main .mt .extra-r {
+    float: right;
+}
+#order02 {
+    position: relative;
+}
+.mod-comm {
+    padding: 10px 20px 20px;
+}
+.mod-main {
+
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.mod-comm .mt {
+    padding: 10px 0;
+}
+.mod-main .mt {
+    display: inline-block;
+    display: block;
+}
+.mod-main .mt .extra-l {
+    float: left;
+}
+.mod-main .mt .extra-l li {
+    padding-right: 20px;
+}
+.lefta-box .mt .extra-l li {
+    padding: 0;
+}
+.mod-main .mt .extra-l li {
+    float: left;
+
+}
+.mod-main .mt .extra-l li a.curr {
+    padding-bottom: 0;
+    color: #e4393c;
+    border-bottom: 2px solid #e4393c;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mod-main .mt .extra-l li a {
+    display: inline-block;
+    vertical-align: middle;
+	}
+.mod-main .mt .extra-l li a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+.mod-main .mt .extra-l li a {
+    padding-bottom: 2px;
+}
+.mod-main .mt .extra-l li.fore2 {
+    padding-left: 40px;
+    margin-left: 20px;
+}
+.mod-main .mt .extra-l li.fore2 {
+    position: relative;
+    border-left: 1px dotted #ddd;
+
+}
+.mod-main .mt .extra-r {
+    float: right;
+}
+.mt .search {
+    position: relative;
+    top: -3px;
+}
+.mt .search .itxt {
+    float: left;
+    width: 170px;
+    height: 25px;
+    line-height: 18px;
+    padding: 2px 5px 3px;
+    border: 1px solid #ccc;
+}
+.mt .search .search-btn {
+    position: relative;
+    float: left;
+    width: 52px;
+    height: 23px;
+    line-height: 99em;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-left: 0;
+    text-align: center;
+    background-color: #f7f7f7;
+	    background-image: linear-gradient(to bottom,#f7f7f7 0,#f3f2f2 100%);
+}
+.mt .search .search-btn b {
+    position: absolute;
+    left: 17px;
+    top: 3px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../img/order-icons.png) -8px -58px;
+}
+.mt .search .default-btn {
+    float: left;
+    margin-left: -1px;
+    width: 50px;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 0 3px;
+    text-align: center;
+    border: 1px solid #ddd;
+    color: #333;
+    border-radius: 2px;
+    background-color: #f7f7f7;
+	background-image: linear-gradient(to bottom,#f7f7f7 0,#f3f2f2 100%);
+}
+.mt .search .default-btn b {
+    display: inline-block;
+    _display: none;
+    width: 7px;
+    height: 4px;
+    margin-left: 5px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../img/order-icons.png) -37px -207px no-repeat;
+}
+.mod-comm .mc {
+    line-height: 20px;
+}
+.mod-main .mc {
+    overflow: visible;
+}
+.order-tb {
+    width: 100%;
+}
+table {
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.order-tb thead th {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background: #f5f5f5;
+    color: #666;
+    font-weight: 400;
+}
+.order-tb .ordertime-cont {
+    position: relative;
+    float: left;
+    z-index: 10;
+    width: 138px;
+    cursor: pointer;
+}
+.order-tb .ordertime-cont .time-txt {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 12px;
+    border: 1px solid #f5f5f5;
+}
+.order-tb .ordertime-cont .time-txt b {
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    right: 18px;
+    top: 13px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../img/order-icons.png) -37px -207px no-repeat;
+}
+.order-tb .order-detail-txt {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ac {
+    text-align: center;
+}
+.order-tb .deal-state-cont {
+    position: relative;
+    z-index: 10;
+    width: 98px;
+    cursor: pointer;
+}
+.order-tb .deal-state-cont .state-txt {
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 12px;
+    border: 1px solid #f5f5f5;
+}
+.order-tb .deal-state-cont .state-txt b {
+    position: absolute;
+    width: 7px;
+    height: 4px;
+    right: 18px;
+    top: 13px;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../img/order-icons.png) -37px -207px no-repeat;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.order-tb .sep-row {
+    height: 20px;
+}
+.order-tb .sep-row td {
+    border: 0;
+}
+.order-tb .tr-th {
+    background: #f5f5f5;
+    height: 31px;
+    line-height: 31px;
+    color: #aaa;
+    overflow: hidden;
+}
+.order-tb .tr-th td {
+    border-bottom-color: #f5f5f5;
+}
+.order-tb tbody td {
+    border: 1px solid #e5e5e5;
+}
+.order-tb .tr-th .gap {
+    width: 14px;
+}
+.order-tb .tr-th span {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    padding: 2px 0 0;
+}
+.order-tb .tr-th .dealtime {
+    margin-right: 30px;
+
+    font-family: verdana;
+}
+.order-tb .tr-th .number {
+    width: 226px;
+    font-family: verdana;
+}
+.order-tb .tr-th a {
+    color: #333;
+}
+.order-tb .tr-th .tr-operate {
+    width: 608px;
+}
+.order-tb .tr-th .tr-operate {
+    float: right;
+    position: relative;
+    margin-right: 15px;
+
+    height: 23px;
+}
+.order-tb .tr-th .order-shop {
+    width: 178px;
+}
+.order-tb .tr-th .order-del {
+    position: absolute;
+    right: 0;
+    top: 6px;
+    display: none;
+    width: 13px;
+    height: 13px;
+    font-size: 0;
+    overflow: hidden;
+    vertical-align: middle;
+    background: url(../img/order-icons.png) -23px -132px no-repeat;
+}
+.order-tb .tr-bd {
+    text-align: center;
+    vertical-align: top;
+}
+.order-tb .tr-bd td {
+    padding: 14px 0;
+}
+.order-tb tbody td {
+    border: 1px solid #e5e5e5;
+}
+.order-tb .tr-bd {
+    text-align: center;
+}
+.order-tb .goods-item {
+    width: 340px;
+    margin-right: 74px;
+}
+.order-tb .goods-item {
+
+    display: block;
+    float: left;
+
+
+}
+.order-tb .goods-number {
+    width: 70px;
+}
+.order-tb .goods-number {
+    float: left;
+    text-align: left;
+    color: #aaa;
+    font-family: verdana;
+}
+.order-tb .goods-repair {
+    width: 104px;
+}
+.order-tb .goods-repair {
+    float: right;
+    text-align: center;
+}
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
+.order-tb .goods-item .p-img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #efefef;
+    margin: 0 14px;
+}
+.root61 .order-tb .goods-item .p-msg {
+    width: 240px;
+}
+.order-tb .goods-item .p-msg {
+    float: left;
+}
+.order-tb .goods-item .p-name {
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    color: #333;
+    text-align: left;
+}
+.order-tb .goods-item .p-name a {
+    color: #333;
+}
+.order-tb .goods-item .p-extra {
+    color: #aaa;
+    text-align: left;
+}
+.order-tb .goods-item .o-info {
+    text-align: left;
+    color: #aaa;
+}
+.order-tb .goods-item .o-similar {
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.order-tb .goods-item .o-similar i {
+    margin-top: 2px;
+    background-position: -31px 0;
+}
+.order-tb .goods-item .o-similar i {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+.order-tb .goods-item .o-similar i {
+    display: inline-block;
+    background-image: url(../img/sprite-order-icon.png);
+    background-repeat: no-repeat;
+}
+.order-tb .goods-item .o-similar em {
+    display: inline-block;
+    vertical-align: top;
+}
+.order-tb .tr-bd td {
+    padding: 14px 0;
+}
+.order-tb .tooltip {
+    position: relative;
+    width: 100px;
+    margin: 0 auto;
+    z-index: 2;
+    cursor: pointer;
+}
+.order-tb .consignee {
+    color: #333;
+}
+.order-tb .consignee .txt {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 72px;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+.order-tb .consignee b {
+    display: inline-block;
+    width: 14px;
+    height: 16px;
+    background: url(../img/order-icons.png) 0 -24px;
+    vertical-align: middle;
+    margin: 0 0 0 5px;
+}
+.order-tb .amount {
+    color: #AAA;
+}
+.order-tb .amount .ftx-13 {
+    display: block;
+    margin: 0 8px;
+    margin-top: 5px;
+    padding-top: 1px;
+    border-top: solid 1px #E5E5E5;
+    line-height: 19px;
+    height: 19px;
+    overflow: hidden;
+}
+.order-tb .status {
+    position: relative;
+    z-index: 5;
+    color: #333;
+    line-height: 22px;
+}
+span.ftx-03, span.ftx03 {
+    color: #aaa;
+}
+.order-tb .status a {
+    color: #333;
+}
+.order-tb .operate {
+    line-height: 22px;
+}
+a.btn-again-show {
+    display: inline-block;
+}
+a.btn-again {
+    padding: 2px 0 3px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    color: #333;
+    border-radius: 2px;
+    width: 85px;
+    text-align: center;
+}
+a.btn-again b {
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 17px;
+    margin-right: 5px;
+    background: url(../img/order-icons.png) -22px -180px no-repeat;
+}
+.time-list{
+	display: none;
+}
+.state-list{
+	display: none;
+}
+.mod-main .mt .extra-l li {
+    padding-right: 20px;
+}
+.mod-main .mt:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.order-tb .goods-item:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.order-tb thead th {
+    height: 32px;
+
+    background: #f5f5f5;
+    color: #666;
+    font-weight: 400;
+}
+table {
+    display: table;
+
+    border-spacing: 2px;
+    border-color: grey;
+}
+.mod-order .mt {
+    padding: 10px 0 0;
+}
+.mt .extra-l li {
+    padding-right: 20px;
+}
+.mod-main .mt .extra-l li em {
+position: relative;
+display: inline-block;
+height: 15px;
+line-height: 15px;
+font-family: arial;
+top: -5px;
+padding: 0 4px;
+background: #e4393c;
+border-radius: 15px;
+color: #fff;
+font-size: 10px;
+margin: 0 0 0 2px;
+}
+.mod-main .mt .extra-l li a.ftx-03 {
+    color: #999;
+}
+
+tr{
+	font-size: 12px;
+}
+.order-tb .tr-th .btn-im, .order-tb .tr-th .btn-im-off {
+display: inline-block;
+width: 16px;
+height: 16px;
+margin: 0 0 0 5px;
+overflow: hidden;
+background: url(../img/sprite-im.png) -0px 0 no-repeat;
+vertical-align: middle;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+#shareRecSpec{
+    position: relative;
+}
+#shareRecSpec .share-rec-main{
+    width: 1089px;
+    background-color: #fff;
+}
+.root61 .share-rec-show {
+    margin-left: 0;
+}
+#shareRecSpec .share-rec-cont, #shareRecSpecNarrow .share-rec-cont {
+    padding: 20px 17px;
+}
+.share-rec-cont {
+    height: 313px;
+}
+.share-rec-list {
+    height: 313px;
+    float: left;
+}
+.share-rec-list .sr-tit {
+    margin-bottom: 10px;
+    height: 20px;
+}
+.share-rec-list .sr-tit h3 {
+    float: left;
+}
+.share-rec-list .sr-tit a {
+    float: right;
+    margin-right: 20px;
+}
+.share-rec-list.share-rec-list-ablm .sr-tit a {
+    margin-right: 0;
+}
+#shareRecSpec .share-rec-asst, #shareRecSpec .share-rec-item, #shareRecSpecNarrow .share-rec-asst, #shareRecSpecNarrow .share-rec-item {
+    width: 248px;
+}
+#shareRecSpec .share-rec-item .item-inner, #shareRecSpecNarrow .share-rec-item .item-inner {
+    padding-left: 16px;
+    padding-right: 20px;
+}
+.share-rec-item .ab-name {
+    width: 99%;
+    height: 22px;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.share-rec-item .ab-name a {
+    font: 700 16px/22px "Microsoft YaHei";
+    color: #666;
+}
+.share-rec-item .ab-info {
+    width: 100%;
+    height: 24px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.share-rec-item .ab-creator {
+    height: 24px;
+}
+.share-rec-item .ab-creator em {
+    display: inline-block;
+    height: 24px;
+    font: 12px/24px "Microsoft YaHei";
+    color: #e4393c;
+}
+.share-rec-item .ab-goods {
+    width: 100%;
+    height: 162px;
+    overflow: hidden;
+}
+.share-rec-item .ab-goods-cover {
+    float: left;
+    width: 155px;
+    height: 155px;
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+.share-rec-item .ab-goods-list {
+    float: left;
+    position: relative;
+    width: 52px;
+    height: 157px;
+}
+.share-rec-item .ab-goods-ul {
+    width: 100%;
+    height: 157px;
+    overflow: hidden;
+}
+.share-rec-item .ab-goods-item {
+    float: left;
+    width: 52px;
+    height: 52px;
+}
+.share-rec-item .ab-goods-item a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    border-left: none;
+}
+.share-rec-item .ab-goods-item img {
+    width: 50px;
+    height: 50px;
+}
+.share-rec-item .ab-operate-info {
+    width: 100%;
+    height: 32px;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    overflow: hidden;
+    text-align: center;
+}
+.share-rec-item .ab-operate {
+    height: 32px;
+    position: relative;
+    padding-left: 2px;
+    padding-right: 5px;
+}
+.share-rec-item .ab-operate .btn-follow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: left;
+    margin: 2px 0;
+    color: #333;
+}
+.share-rec-item .ab-operate .btn-follow .btnico {
+    width: 28px;
+    height: 28px;
+    background: url(../img/share-rec.png) 0 0 no-repeat;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.share-rec-item .ab-operate .btn-follow .btntxt {
+    display: inline;
+    margin-left: 5px;
+}
+.share-rec-item .ab-operate .ab-operate-gap {
+    width: 1px;
+    height: 32px;
+    border-left: 1px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+}
+.share-rec-item .ab-operate .btn-like {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    float: right;
+    margin: 2px 0;
+    color: #333;
+}
+.share-rec-item .ab-operate .btn-like .btnico {
+    width: 28px;
+    height: 28px;
+    background: url(../img/share-rec.png) -84px 0;
+    margin-right: 5px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+.share-rec-item .ab-operate .btn-like .btntxt {
+    display: inline;
+    margin-left: 5px;
+}
+.share-rec-item {
+    float: left;
+
+    margin-right: 20px;
+}
+.share-rec-item .item-inner {
+    width: 210px;
+    border: 1px solid #f1f1f1;
+    position: relative;
+}
+#content:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.mod-main {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+.share-rec-list.share-rec-list-ablm .share-rec-item:last-child {
+    margin-right: 2px;
+}

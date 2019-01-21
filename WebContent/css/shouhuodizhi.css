@@ -1,0 +1,81 @@
+.dizhi_color{
+	background-color: #FFFFFF;
+	float: left;
+    overflow: hidden;
+    margin: 20px;
+}
+.div_wrap_1{
+	margin: 0 auto;
+	width: 1200px;
+}
+.text_center{
+	text-align: center;
+}
+.dizhi_size{
+	font-weight: 700;
+	font-size: 14px;
+	height: 28px;
+	border: 1px solid #BFD6AF;
+	background-color: #F0F8E9;
+	display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    padding: 0 14px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+.dizhi_div2{
+	border: 2px solid #e6e6e6;
+    margin: 0 0 10px;
+    padding-left: 10px;
+    line-height: 35px;
+    position: relative;
+    display: inline-block;
+    display: block;
+    overflow: visible;
+}
+.yijiangou{
+	margin: 0 0 0 10px;
+    font-size: 12px;
+    background: #84c360;
+    padding: 2px;
+    color: #fff;
+    font-weight: 400;
+}
+.dizhi_main{
+	width: 1000px;
+	padding: 20px;
+}
+.dizhi_left{
+	width: 450px;
+	line-height: 22px;
+}
+.dizhi_xinzeng{
+	height: 35px;
+	padding: 10px 0;
+}
+.dizhi_left span{
+	float: left;
+    width: 70px;
+    color: #999;
+    text-align: right;
+    width: 70px;
+}
+.dizhi_span{
+	color: #71b247;;
+}
+.dizhi_default{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+.dizhi_a{
+	color: #005ea7;;
+}
+.left_nav{
+	width:120px;
+	float: left;
+}

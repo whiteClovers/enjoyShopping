@@ -1,0 +1,652 @@
+/*..................................以下是顶部导航条.......................................*/
+#top{
+		background-color: #E3E4E5;
+}
+.top_nav{
+	margin: 0px auto;
+	width: 990px;
+}
+.top_ul_left{
+	float:left;
+	list-style: none;
+}
+.top_ul_right{
+	float:right;
+}
+.top_ul_left>li{
+	float:left;
+	list-style: none;
+	margin: 5px 0px 5px 0px;
+}
+.top_ul_right>li{
+	float:left;
+	list-style: none;
+	margin: 5px 10px 5px 0px;	
+}
+.spacer{
+    margin: 0px 10px 0px 10px;
+}
+
+/*..................................以下是京东logo及搜索框.......................................*/
+.self{
+	width:1190px;
+	margin:0px auto;
+}
+.self>div{
+	float: left;
+}
+.logo_middle>div{
+	float: left;
+}
+.logo_middle{
+	margin-left: 70px;
+    padding: 35px 0 0 25px;
+    width: 300px;
+    color: #333;
+}
+.logo_input_left{
+	float: left;
+    border: 2px solid #FF0000;
+    height: 36px;
+    margin-top: 20px;
+    overflow: hidden;
+    margin-left: 150px;
+}
+.logo_img{
+	width: 158px;
+    height: 82px;
+}
+.logo_our{
+	padding: 40px 0 0 16px;
+    font-size: 20px;
+}
+.logo_middle_shouye{
+    width: 100px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    cursor: default;
+}
+.logo_middle_zhanghu{
+    width: 100px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    cursor: default;
+}
+.input_shuru2{
+	width: 140px;
+    border: 0px;
+    outline: 0px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.input_sousuo2{
+    width: 60px;
+    height: 36px;
+    background: #FF0000;
+    text-align: center;
+    color: #fff;
+    font-weight: 700px;
+    border: 0px ;
+}
+.logo_right{
+	float: right;
+}
+.logo_cart{
+	float: right;
+	height: 36px;
+	width: 140px;
+	background-color: #F9F9F9;
+	border: 1px solid #DFDFDF;
+	margin-top: 21px;
+    margin-left: 35px;
+    text-align: center;
+    line-height: 34px;
+}
+
+
+/*..................................以下是网页主题页......................................*/
+.main_color{
+	background-color: #F0F3EF;
+}
+.main_dl>dl{
+	float: left;
+	padding: 15px 20px;
+    border-bottom: 1px solid #f3f3f3;
+}
+.main_dl dt{
+	font-size: 16px;
+    font-weight: 550;
+    line-height: 32px;
+    color: #333;
+}
+.main_dl dd{
+	line-height: 32px;
+	font-size: 14px;
+}
+.tiaozheng{
+	width: 130px;
+}
+.main_left{
+	width: 150px;
+	float: left;
+	background-color: #FFFFFF;
+}
+.main{
+	width:1190px;
+	margin:0px auto;
+}
+.main_right{
+	float: left;
+}
+.right_21>div{
+	float: left;
+}
+.geren{
+	background-color: #E22319;
+	width:250px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.huiyuan{
+	background-color: #000000;
+	color: yellow;
+	margin-top: 12px;
+}
+.geren_img{
+	text-align: center;
+	font-size: 25px;
+	color: #FFFFF;
+}
+.geren_xingming{
+	font-size: 25px;
+	color: #FFFFFF;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+.geren_xinyong{
+	font-size: 25px;
+	color: #FFFFFF;
+	margin: 10px 0px 10px 0px;
+	text-align: center;
+}
+.geren_input{
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	background-color: #E22319;
+	font-size: 10px;
+	padding: 3px;
+}
+.geren_image{
+	margin-top: 20px;
+}
+.geren_kaitong{
+	float: right;
+    padding: 0 15px;
+    margin-top: 20px;
+    margin-right: 9px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 14px;
+    background-color: #f4ca3a;
+    color: #232331;
+    font-weight: 550;
+    text-align: center;
+}
+.huiyuan_kaitong{
+	float: left;
+    margin-right: 10px;
+    text-align: center;
+    padding: 15px 20px;
+}
+.qianbao{
+	padding: 0 20px;
+    height: 55px;
+    width:726px;
+    line-height: 55px;
+    border-bottom: 1px solid #f0f3ef;
+    overflow: visible;
+    zoom: 1;
+}
+.qianbao_input{
+	padding: 0;
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center; 
+    margin: 9px 0 9px 250px;
+}
+.qianbao_1{
+	font-size: 20px;
+	font-weight: bold;
+}
+.qianbao_2{
+	color: #0000FF;
+}
+.qianbao_li{
+	margin-left: 55px;
+}
+#qianbao{
+	float: left;
+}
+#yincang{
+    float: right;
+}
+.ul>li{
+	float: left;
+	list-style: none;
+}
+.qianbao_height{
+	height: 20px;
+	line-height: 20px;
+}
+#main_qianbao{
+	margin-top: 35px;
+	background-color: #FFFFFF;
+}
+.ul{
+	display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    line-height: 30px;
+}
+.qianbao_3{
+	margin-top: 15px;
+}
+
+
+/*..................................以下是我的订单页......................................*/
+.wodedingdan
+{
+	float: left;
+	width: 694px;
+}
+.dingdan_text{
+	background-color: #FFFFFF;
+	text-align: center;
+	width:694px;
+}
+.dingdan_wode{
+	padding: 0 20px;
+    height: 55px;
+    line-height: 55px;
+    overflow: visible;
+}
+.dingdan_mc{
+	overflow: visible;
+	zoom: 1px;
+}
+.dingdan_nav{
+	padding: 15px 20px;
+    height: 90px;
+    text-align: center;
+}
+.dingdan_nav>a{
+	float: left;
+	margin-right: 50px;
+	margin-left: 30px;
+}
+.dingdan_tiaozheng{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.icon-daifukuan,.icon-daishouhuo,.icon-wodefankui,.icon-jiantouyou{
+    width: 44px;
+    height: 35px;
+    background-position: 0 -200px;
+    position: relative;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    zoom:1;/*缩小放大*/
+}
+.dingdan_name{
+	padding-top: 10px;
+    height: 16px;
+    line-height: 16px;
+    position: relative;
+    display: block;
+}
+.dingdan_xiangxi{
+	padding: 60px 0 90px;
+    color: #999;
+    text-align: center;
+    background-color: #fff;
+}
+.icon-gouwuchetianjia{
+	content: "";
+    display: inline-block;
+    margin-right: 20px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+	zoom:1.5;
+}
+.plus{
+	margin-top: 20px;
+	float: left;
+	width: 694px;
+	height: 362px;
+	background-color: #facf2a;
+}
+.plus_span{
+	font-size: 15px;
+	color: #000000;
+	font-weight: bolder;
+}
+.plus_input{
+	float: right;
+    background-color: #2c2e40;
+    border-radius: 14px;
+    text-align: center;
+    color: #f5ca3a;
+    font-weight: 550;
+    height: 27px;
+    border: 0;
+    margin-top: 15px;
+}
+.ad_kind_ul12>li{
+	float: left;
+	list-style: none;
+	margin-right: 50px;
+}
+.ad_kind_ul12{
+	float: left;
+}
+.ad_kind_ul22>li{
+	float: left;
+}
+.ad_kind_ul22{
+	float: right;
+	list-style: none;
+}
+.ad_kind2{
+	margin: 10px;
+}
+.ad_ul2>li{
+	float: left;
+	list-style: none;
+	width: 150px;
+	height: 270px;
+	margin:0px 6px 0px 6px;
+	text-align: center;
+}
+.ad_img12{
+	width:130px;
+	height: 130px;
+	text-align: center;
+}
+.ad_li_div2{
+	height:35px ;
+	overflow:hidden;
+	width=140px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.ad_li_div12{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ad_li_div22{
+	text-align: center;
+	height: 20px;
+	margin-top: 10px;
+}
+.ad_li_button2{
+	width: 150px;
+	height: 30px;
+	background-color: #FFFFFF;
+	border: 1px #AAAAAA solid;
+}
+.ad_button{
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 660px;
+    margin-left: 17px;
+}
+.ad_li_button3{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+.dingdan_text2{
+	background-color: #FFFFFF;
+	width: 660px;
+	margin-left: 17px;
+}
+
+
+/*..................................以下是我的买什么，聚划算页......................................*/
+.maiju{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 694px;
+	height: 362px;
+}
+.float_right{
+	float: right;
+}
+.maiju{
+	background-color: #FFFFFF;
+}
+.maiju_mc{
+	height: 259px;
+	padding: 0 10px 20px 20px;
+}
+.maiju_mc_left{
+	width: 320px;
+    height: 257px;
+    float: left;
+    margin: 0 10px 0 0;
+    border: 1px solid #f0f3ef;
+}
+.maiju_name{
+	display: block;
+    margin: 15px 0 1px;
+    padding-left: 19px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #333;
+    overflow: hidden;
+}
+.maiju_owner{
+	margin-bottom: 15px;
+    padding: 5px 0 5px 17px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+}
+.nickname{
+	float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    color: #2d87ec;
+}
+.maiju_button1{
+	margin-right: 5px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    height: 14px;
+    color: #999;
+    float: left;
+    overflow: hidden;
+}
+.maiju_button2{
+	margin-right: 5px;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    height: 14px;
+    color: #999;
+    float: left;
+    overflow: hidden;
+}
+.maiju_img{
+	height: 178px;
+	position: relative;
+	overflow: hidden;
+}
+.maiju_img_a{
+	margin-right: 2px;
+    width: 198px;
+    height: 178px;
+    float: left;
+    overflow: hidden;
+}
+.maiju_img_img{
+	width: 198px;
+    height: 178px;
+    border: 0;
+    vertical-align: middle;
+}
+.maiju_ul{
+	float: left;
+    overflow: hidden;
+    list-style: none;
+}
+.maiju_ul>li{
+	margin-bottom: 2px;
+    width: 120px;
+    height: 88px;
+}
+.maiju_total{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 36px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    background-color: #666666;
+}
+
+
+/*..................................以下是右侧的我的关注，浏览记录页......................................*/
+.right_222{
+	float: right;
+ /*   margin-left: 734px;*/
+    height: 500px;	
+    margin-top: 20px;
+    width: 303px;
+}
+.guanzhu_nav>a{
+	float: left;
+	padding: 20px
+}
+.guanzhu{
+	background-color: #FFFFFF;
+}
+.guanzhu_mc{
+	font-size: 15px;
+	border-top: 1px solid;
+	border-top-color: #F0F3EF;
+}
+.liulan{
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+.liulan_img{
+	width: 60px;
+	height: 60px;
+}
+.liulan_nav{
+	border-top: 1px #F0F3EF solid;
+	padding: 20px;
+	text-align: center;
+}
+.guanzhu_ul,.guanzhu2_ul{
+	display: block;
+	height: 10px;
+    text-align: center;
+    font-size: 0;
+    list-style: none;
+    margin-top: 5px;
+}
+.guanzhu_li{
+	display: inline-block;
+    font-size: 0;
+}
+.guanzhu_button{
+	background-color: #aaa;
+	float: left;
+    padding: 0;
+    margin: 0 5px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 0;
+}
+.guanzhu2_ul{
+	padding: 20px 0;
+}
+.fuwu_li{
+	width: 100%;
+    display: inline-block;
+}
+.fuwu_ul{
+	margin: 0 0 0 -12px;
+    width: 288px;
+    overflow: hidden;
+    list-style: none;
+}
+.fuwu_ul>li{
+	float: left;
+    width: 95px;
+    height: 79px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    list-style: none;
+}
+.fuwu_a{
+	color: #9b8066;
+	text-decoration: none;
+	float: left;
+    width: 95px;
+    height: 79px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.fuwu_i{
+	margin: 10px auto 0;
+    background-position: -240px 0;
+    font-style: normal;
+    float: left;
+    width: 95px;
+    height: 35px;
+    text-align: center;
+}
+.fuwu_span{
+	display: block;
+}
+.fuwu_ul2{
+	margin-top: -25px;
+}
+
+
+/*..........................................................底部............................*/
+.dkhs_2{
+	background-color: #EAEAEA;
+	text-align: center;
+}
