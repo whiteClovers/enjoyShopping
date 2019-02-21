@@ -1,2 +1,2 @@
 # enjoyShopping
-an online shopping website
+一个b2c 网上商城，使用MVC模式进行开发，使用html,css,js编写前段页面，数据库使用MySQL进行开发，后台使用servlet+jsp。该系统实现了用户从注册，登录，浏览商品，加入购物车，提交订单，付款，卖家发货，买家收货，查看订单等一系列购物流程，以及开发了相应的后台管理系统。
